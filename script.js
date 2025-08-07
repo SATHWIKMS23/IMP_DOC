@@ -4,7 +4,7 @@ const volumeDisplay = document.getElementById("volumeDisplay");
 const paraBox = document.getElementById("paraBox");
 const typedText = document.getElementById("typedText");
 
-const audio = new Audio("song1.mp3"); // Your background song
+const audio = new Audio("SONG1.mp3"); // Your background song
 audio.loop = true;
 audio.volume = 0.5;
 
@@ -69,3 +69,4 @@ function typeText(text) {
         if (i >= text.length) clearInterval(typingInterval);
     }, 20);
 }
+
