@@ -67,5 +67,6 @@ function typeText(text) {
         typedText.textContent += text.charAt(i);
         i++;
         if (i >= text.length) clearInterval(typingInterval);
-    }, 20);
+    }, 50);
 }
+
